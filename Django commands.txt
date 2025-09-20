@@ -72,6 +72,6 @@ pip install django-filter        # Filtering support
 
 
 
-#superuser - file-manager-drf
+#superuser - file-sharing-drf
 #email = surajkumar.sm09@gmail.com
 pass = drf@manager
