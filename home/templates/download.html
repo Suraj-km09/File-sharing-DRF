@@ -170,6 +170,46 @@
       margin-bottom: 10px;
     }
     
+    .note-section {
+      margin-top: 30px;
+      padding: 20px;
+      background-color: #fff8e1;
+      border-left: 4px solid #FFC107;
+      border-radius: 8px;
+    }
+    
+    .note-section h5 {
+      color: #7c660c;
+      margin-bottom: 10px;
+    }
+    
+    .support-section {
+      margin-top: 30px;
+      padding: 20px;
+      background: var(--light-bg);
+      border-radius: 15px;
+    }
+    
+    .support-section h5 {
+      color: var(--dark-color);
+      margin-bottom: 15px;
+    }
+    
+    .support-contact {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+    }
+    
+    .support-contact a {
+      color: var(--primary-color);
+      text-decoration: none;
+    }
+    
+    .support-contact a:hover {
+      text-decoration: underline;
+    }
+    
     @media (max-width: 576px) {
       .container {
         padding: 20px;
@@ -247,6 +287,24 @@
         <li>Extract the files using built-in tools or software like WinRAR/7-Zip</li>
         <li>If you encounter any issues, try again or contact support</li>
       </ol>
+    </div>
+    
+    <!-- Added Note Section -->
+    <div class="note-section">
+      <h5><i class="fas fa-exclamation-circle me-2"></i>Important Note:</h5>
+      <p>This download link will expire in 24 hr. Please make sure to download your files before then. For security reasons, expired links cannot be restored.</p>
+    </div>
+    
+    <!-- Added Support Section -->
+    <div class="support-section">
+      <h5><i class="fas fa-life-ring me-2"></i>Need Help?</h5>
+      <p>If you're experiencing issues with your download, our support team is here to help:</p>
+      <div class="support-contact">
+        <div><i class="fas fa-envelope me-2"></i> Email: <a href="mailto:support@fileshare.com">support@fileshare.com</a></div>
+        <!-- <div><i class="fas fa-phone me-2"></i> Phone: <a href="tel:+18005551234">+1 (800) 555-1234</a></div>
+        <div><i class="fas fa-comments me-2"></i> Live Chat: <a href="#">Available Mon-Fri, 9AM-5PM EST</a></div>
+        <div><i class="fas fa-question-circle me-2"></i> FAQ: <a href="#">Visit our Help Center</a></div> -->
+      </div>
     </div>
   </div>
 
